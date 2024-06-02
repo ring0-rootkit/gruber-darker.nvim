@@ -2,6 +2,20 @@
 This is a fork of this repo https://github.com/ring0-rootkit/gruber-darker.nvim
 I've changed some colors to suit my needs, but you are welcome to use that and contribute.
 (I've made popup windows darker than in original repo)
+
+# My custom additions
+## darker white (i have Astigmatism so it helps me to read better)`
+
+![image](https://github.com/ring0-rootkit/gruber-darker.nvim/assets/111735837/f443d5f9-239d-4afe-a78a-b3ba8f65d1c3)
+
+## darker popup windows
+
+![image](https://github.com/ring0-rootkit/gruber-darker.nvim/assets/111735837/bc21dc45-85fe-4768-b059-42fbaa32fc22)
+
+`ORIGINAL for comparison`
+
+![image](https://github.com/ring0-rootkit/gruber-darker.nvim/assets/111735837/0b990766-b937-4dc7-8689-d22ba9ae7840)
+
 # gruber-darker.nvim
 
 _A modern Neovim port of a deftheme [adaptation][gruber-darker-theme] of an Emacs
