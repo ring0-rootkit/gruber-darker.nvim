@@ -1,3 +1,7 @@
+# NOTE
+This is a fork of this repo https://github.com/ring0-rootkit/gruber-darker.nvim
+I've changed some colors to suit my needs, but you are welcome to use that and contribute.
+(I've made popup windows darker than in original repo)
 # gruber-darker.nvim
 
 _A modern Neovim port of a deftheme [adaptation][gruber-darker-theme] of an Emacs
@@ -13,19 +17,19 @@ _A modern Neovim port of a deftheme [adaptation][gruber-darker-theme] of an Emac
 ### Lazy (recommended)
 
 ```lua
-{ "blazkowolf/gruber-darker.nvim" }
+{ "ring0-rootkit/gruber-darker.nvim" }
 ```
 
 ### Packer
 
 ```lua
-use "blazkowolf/gruber-darker.nvim"
+use "ring0-rootkit/gruber-darker.nvim"
 ```
 
 ### Plug
 
 ```vim
-Plug 'blazkowolf/gruber-darker.nvim'
+Plug 'ring0-rootkit/gruber-darker.nvim'
 ```
 
 Then, somewhere in your `init.lua`, set the colorscheme
@@ -67,7 +71,7 @@ For example, with [Lazy](https://github.com/folke/lazy.nvim.git)...
 
 ```lua
 {
-  "blazkowolf/gruber-darker.nvim",
+  "ring0-rootkit/gruber-darker.nvim",
   opts = {
     bold = false,
     italic = {
