@@ -91,13 +91,13 @@ M.highlights.normal_non_current = Highlight.new("NormalNC", { fg = c.fg, bg = c.
 ---Normal text in sidebar
 M.highlights.normal_sidebar = Highlight.new("NormalSB", { fg = c.fg, bg = c["bg-1"] })
 ---Normal text in floating windows.
-M.highlights.normal_float = Highlight.new("NormalFloat", { fg = c.fg, bg = c["bg+1"] })
+M.highlights.normal_float = Highlight.new("NormalFloat", { fg = c.fg, bg = c["bg-1"] })
 M.highlights.float_border = Highlight.new("FloatBorder", { fg = c["bg+4"], bg = c.none })
 
 -- Popup
 
 ---Popup menu: normal item.
-M.highlights.popup_menu = Highlight.new("Pmenu", { fg = c.fg, bg = c["bg+1"] })
+M.highlights.popup_menu = Highlight.new("Pmenu", { fg = c.fg, bg = c["bg-1"] })
 ---Popup menu: selected item.
 M.highlights.popup_menu_sel = Highlight.new("PmenuSel", { fg = c.fg, bg = c["bg+2"] })
 ---Popup menu: scrollbar.
@@ -250,6 +250,6 @@ M.highlights.md_code_block = Highlight.new("markdownCodeBlock", { fg = c.green }
 M.highlights.md_italic = Highlight.new("markdownItalic", { fg = c.wisteria, italic = true })
 M.highlights.md_bold = Highlight.new("markdownBold", { link = gruber_hl.yellow_bold })
 M.highlights.md_code_delim = Highlight.new("markdownCodeDelimiter", { fg = c.brown, italic = true })
-M.highlights.md_error = Highlight.new("markdownError", { fg = c.fg, bg = c["bg+1"] })
+M.highlights.md_error = Highlight.new("markdownError", { fg = c.fg, bg = c["bg-1"] })
 
 return M
