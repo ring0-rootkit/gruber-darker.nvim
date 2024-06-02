@@ -3,8 +3,12 @@ This is a fork of this repo https://github.com/ring0-rootkit/gruber-darker.nvim
 I've changed some colors to suit my needs, but you are welcome to use that and contribute.
 (I've made popup windows darker than in original repo)
 
+# Kitty theme
+Also I've make kitty theme with that colorscheme
+[gruber-darker-kitty](https://github.com/ring0-rootkit/gruber-darker-kitty)
+
 # My custom additions
-## darker white (i have Astigmatism so it helps me to read better)`
+## darker white (I have Astigmatism so it helps me to read better)`
 
 ![image](https://github.com/ring0-rootkit/gruber-darker.nvim/assets/111735837/f443d5f9-239d-4afe-a78a-b3ba8f65d1c3)
 
